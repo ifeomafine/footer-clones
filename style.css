@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Rubik:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+body {
+    background-color: #000;
+}
+section {
+    color: #fff;
+}
+footer {
+    background-color: rgb(40,0,51);
+    color: #fff;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(235,178,5);
+}
+.container {
+    display: grid;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5rem 8rem; 
+    gap: 8rem;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+.top-bottom {
+    display: flex;
+    gap: 1.5rem;
+}
+.bottom {
+    display: flex;
+    gap: 1.5rem;
+}
+.mid {
+    grid-column: 2 / span 2;
+    padding-top: 1rem;
+}
+.center {
+    grid-column: 4 / span 2;
+    padding-top: 1rem;
+}
+.right {
+    grid-column: 6 / span 3;
+    padding-top: 1rem;
+}
+.left , .mid , .center , .right { 
+    line-height: 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.container h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.icons {
+    gap: 1.5rem;
+    display: flex;
+}
+.end {
+    background-color: #000;
+    text-align: center;
+    padding: 2rem;
+}
+.site:hover {
+    text-decoration: underline;
+}
